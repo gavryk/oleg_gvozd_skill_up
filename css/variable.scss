@@ -1,0 +1,10 @@
+$link_color: rgba(166, 90, 190, 1);
+$link_color_hover: #666;
+$link_color_active: #009;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}

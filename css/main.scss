@@ -1,0 +1,30 @@
+@import "variable";
+@import url('https://fonts.googleapis.com/css?family=Roboto&subset=cyrillic');
+
+.btn {
+  background-color: #7493fe;
+  padding: 9px 0;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  i {
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    font-size: 14px;
+    padding: 11px;
+    background-color: #5f7ce3;
+  }
+  span {
+    padding: 7px 10px;
+  }
+
+  &.pressed {
+    background-color: #5f7ce3;
+  }
+
+  &.disabled {
+    opacity: .5;
+  }
+
+}
